@@ -1,0 +1,32 @@
+.Home {
+    background-color: grey;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.NavLink {
+    width: min-content;
+}
+
+h2 {
+    width: min-content;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}

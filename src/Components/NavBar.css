@@ -1,0 +1,33 @@
+
+header {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    align-items: center;
+}
+
+.LeftBanner {
+    background-color: azure;
+    width: 300px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+    background-color: blue;
+}
+
+.NavButtonsContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+h4 {
+    width: 150px;
+    background-color: blueviolet;
+}
+
+h4:hover {
+    background-color: aliceblue;
+}
