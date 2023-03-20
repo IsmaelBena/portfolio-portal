@@ -16,7 +16,8 @@ function NavBar(props) {
             </div>
         </div>
         <div className='AuthenticationBanner'>
-
+            
+        
         </div>
     </header>
   );

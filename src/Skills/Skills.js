@@ -1,11 +1,11 @@
 import './Skills.css';
 import { Link } from 'react-router-dom';
+import NavBar from '../Components/NavBar';
 
 function Skills() {
   return (
     <div className="Skills">
-        <Link to={"/"}>Home</Link>
-        <Link to={"/projects"}>Projects</Link>
+        <NavBar pageName="Skills"/>
     </div>
   );
 }
